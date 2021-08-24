@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Great+Vibes&family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+
+body{
+    margin: 0;
+    background-color: gainsboro;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.navbar::before{
+    content: "";
+    background-color: rgb(252, 246, 164);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.imglogo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 0 0  5px 5px rgb(73, 71, 71);
+    border: 2px solid black;
+    
+}
+.ref ul {
+    display:flex;
+    
+}
+.ref ul li{
+    list-style: none;
+}
+.ref ul li a{
+    text-decoration: none;
+    color: black; 
+    padding: 30px;
+    font-weight: 700;
+    font-size: 1.3em;
+    font-family: 'Cinzel', serif;
+    transition: all 0.3s linear;
+}
+.ref ul li a:hover{
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 60px;
+    height: 60%;
+    border-bottom: 2px double black;
+}
+img.restpic{
+    width: 40%;
+    height: auto;
+    box-shadow: 0 0  8px 8px rgb(87, 81, 81);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Great Vibes', cursive; */
+    letter-spacing: 1px;
+    padding-top: 20px;
+    font-size: 3.3em;
+    text-shadow:  3px 3px rgb(248, 218, 121);
+}
+h3{
+    font-family: 'Cinzel', serif;
+    line-height: 30px;
+}
+#menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 70px;
+    border-bottom: 2px double black;
+    padding-bottom: 30px ;
+}
+h4{
+    font-family: 'Cinzel', serif;
+    font-size: 1.6em;
+}
+h6{
+    font-family: 'Cinzel', serif;
+    font-size: .9em;
+}
+div.recepies:nth-child(odd){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    margin-bottom: 8%;
+}
+
+div.recepies:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+.recepics{
+    padding: 0 10px 0 10px;
+}
+.menucard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menucard img{
+    padding:10px;
+}
+#review{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 70px;
+    border-bottom: 2px double black;
+    padding-bottom: 30px ;
+}
+.review ol li{
+    font-family: 'Cinzel', serif;
+    font-size: 1em;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid rgb(43, 42, 42);
+    padding: 30px;
+    font-size: 1.2em;
+    margin-bottom: 70px;
+    color: snow;
+    font-weight: 800;
+    transition: all .3s linear;
+    border-radius: 30px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Fc6TDRyDvrd-P6ld1XIMUtplOTnpblVAAw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+input{
+    width: 70%;
+    height: 30px;
+    border: 1px solid rgb(75, 69, 69);
+    border-radius: 20px;
+    transition: all .3s linear;
+}
+.button{
+    text-align: center;
+}
+button{
+    width: 90px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: all .3s linear;
+}
+input:hover, button:hover{
+    box-shadow: 0 0 3px 4px slategrey;
+}
+form:hover{
+    box-shadow: 0 0 7px 7px rgb(172, 154, 77);
+}
