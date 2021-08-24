@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="e2.css">
+</head>
+
+
+<body>
+    <h1>Welcome to ED organisation</h1>
+    <p>This is newly formed organisation. We have a few positions open for you people <br>
+        Feel free to apply for the post.</p>
+    <div class="everything" id="everything">
+        <form class="name" action="">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="text">Middle Name:</label><br>
+            <input type="text" name="mname" id="mname"><br><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+        </form>
+        <form action="" class="gender">
+            <h3>Select your Gender:</h3>
+            <input type="radio" name="male" id="male"><label for="male">Male</label><br>
+            <input type="radio" name="male" id="female"><label for="female">Female</label><br>
+            <input type="radio" name="male" id="others"><label for="others">Others</label><br>
+        </form>
+
+        <form action="" class="age">
+            <label for="Age">Enter Your Age:</label><br>
+            <input type="text" min="0" max="99" name="age" placeholder="( 0 - 99 )" id="age">
+        </form>
+
+
+        <form action="" class="Year">
+            <label for="Year">Select the Post you want to apply for:</label><br>
+            <select name="Year" id="Year">
+                <option value="0">Select the Year</option>
+                <option value="1">1st Year</option>
+                <option value="2">2nd Year</option>
+                <option value="3">3rd Year</option>
+                <option value="4">4th Year</option>
+            </select>
+        </form>
+
+
+        <form action="" class="email">
+            <label for="email">Enter Your Email:</label><br>
+            <input type="email" name="" id="">
+        </form>
+        <form action="" class="post">
+            <label for="post">Select the Post you want to apply for:</label><br>
+            <select name="post" id="post">
+                <option value="0">Select the post</option>
+                <option value="1">PRESIDENT</option>
+                <option value="2">VICE-PRESIDENT</option>
+                <option value="3">SECRETARY</option>
+                <option value="4">TREASURER</option>
+                <option value="5">ORGANISING COMMITTEE HEAD</option>
+                <option value="6">ORGANISER</option>
+            </select>
+        </form>
+        <form action="" class="about">
+            <label for="about">tell us why you are suitable for the position:</label><br>
+            <input type="text" name="" id="" placeholder="Write about yourself">
+
+        </form>
+        <input type="submit" value="submit">
+    </div>
+
+</html>
